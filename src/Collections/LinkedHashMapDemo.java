@@ -21,7 +21,7 @@ public class LinkedHashMapDemo {
 		lm.put(null, 959565);
 		lm.put(null, null);
 		
-		lm.forEach((k,v) -> 	System.out.println(k+":"+v));//using for each loop can be iterate the value
+		lm.forEach((k,v) -> System.out.println(k+":"+v));//using for each loop can be iterate the value
 		System.out.println();
 
 		
